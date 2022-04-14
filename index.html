@@ -1,21 +1,12 @@
 <!DOCTYPE html>
 <html>
-  <script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
-  <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.5.0/aframe/build/aframe-ar.js"></script>
-  <body style="margin : 0px; overflow: hidden;">
-    <a-scene embedded arjs>
-      <a-marker preset="hiro">
-        <a-box position="0 0.5 0" material="color: black;"></a-box>
-      </a-marker>
-      <a-entity camera></a-entity>
-    </a-scene>
+  <head>
 
-    <!-- <a-scene embedded arjs>
-        <a-marker preset="pattern" url='./assets/pattern-marker.patt'>
-          <a-box position="0 0.5 0" material="color: red;"></a-box>
-        </a-marker>
-        <a-entity camera></a-entity>
-      </a-scene> -->
-
+  </head>
+  <body style="height: 100vh;width: 100vw;display: flex;flex-direction: column;">
+    <iframe src="http://127.0.0.1:5500/iframes/ar-frame.html" frameborder="0" style="height: 75vh;width: 75vw;margin: auto;/* display: flex; *//* vertical-align: middle; *//* flex: 1 1 auto; */min-height: 75%;"></iframe>
+    <!-- <iframe src="http://127.0.0.1:5500/iframes/itemRenderer.html" id="childView"></iframe> -->
+    <script src="http://127.0.0.1:5500/assets/scripts/main.js"></script>
+ 
   </body>
 </html>
