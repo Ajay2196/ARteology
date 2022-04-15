@@ -1,4 +1,4 @@
-const trustedOrigins = ["http://127.0.0.1:5500"];
+const trustedOrigins = window.origin;
 const markers = document.getElementsByTagName("a-marker");
 var parentWindow;
 for(let marker of markers){

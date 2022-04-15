@@ -1,4 +1,4 @@
-const trustedOrigins = ["http://127.0.0.1:5500"];
+const trustedOrigins = window.origin
 const iframe = document.querySelector("iframe");
 var filteredMetaData =[];
 const filterProperties = ['id','dcDescription','edmPreview','edmIsShownAt','title','link','edmPlaceLatitude','edmPlaceLongitude'];
