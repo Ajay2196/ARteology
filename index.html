@@ -1,11 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
-
+<link rel="stylesheet" href="./assets/styles/css/main.css">
   </head>
-  <body style="height: 100vh;width: 100vw;display: flex;flex-direction: column;">
-    <iframe src="./iframes/ar-frame.html" frameborder="0" style="height: 75vh;width: 75vw;margin: auto;/* display: flex; *//* vertical-align: middle; *//* flex: 1 1 auto; */min-height: 75%;"></iframe>
-    <script src="./assets/scripts/main.js"></script>
- 
+  <body class="arteology">
+    <div class="arteology--header">
+      <h2>
+        Welcome to Arteology : a Hunt Museum AR Experience!
+      </h2>
+    </div>
+    
+    <div class="arteology__content" id="contentWindow" >
+        <a href="ar.html">
+            <div class="content_option">
+                <h4>Explore Augmented Reality Experience</h4>
+            </div>
+        </a> 
+        <a href="explore.html">
+            <div class="content_option">
+                <h4>Explore The Interactve Artefacts available in the museum</h4>
+            </div>
+        </a>
+    </div>
+
+    <script src="./assets/scripts/master.js"></script>
   </body>
 </html>

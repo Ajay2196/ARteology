@@ -78,14 +78,12 @@
 
       <a-entity camera></a-entity>
     </a-scene>
-
-    <!-- <a-scene embedded arjs>
-        <a-marker preset="pattern" url='./assets/pattern-marker.patt'>
-          <a-box position="0 0.5 0" material="color: red;"></a-box>
-        </a-marker>
-        <a-entity camera></a-entity>
-      </a-scene> -->
       <script src="../assets/scripts/frame.js"></script>
 
+      <style>
+        #arjsDebugUIContainer,.a-enter-vr-button{
+          display: none;
+        }
+      </style>
   </body>
 </html>

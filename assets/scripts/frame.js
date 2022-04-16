@@ -5,14 +5,14 @@ for(let marker of markers){
     marker.addEventListener("markerFound", (e)=>{
         parent.postMessage(
             JSON.stringify({
-              message: "Marker found at the iframe window",data : marker.id, isFound:true
+              message: "Marker found at the iframe window",id : marker.id, isFound:true
             })
           );
     });
     marker.addEventListener("markerLost", (e)=>{
         parent.postMessage(
             JSON.stringify({
-              message: "Marker lost at the iframe window",data : marker.id, isFound:false
+              message: "Marker lost at the iframe window",id : marker.id, isFound:false
             })
           );
     });
