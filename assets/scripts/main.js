@@ -35,7 +35,7 @@ iframe.addEventListener("load", () => {
 })
   );
 });
-iframe.setAttribute("src", "../iframes/ar-frame.html");
+iframe.setAttribute("src", "./iframes/ar-frame.html");
 var markerId;
 function onMsg(msg) {
   if (!trustedOrigins.includes(msg.origin)) return;
