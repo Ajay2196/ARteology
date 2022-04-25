@@ -38,7 +38,7 @@ iframe.addEventListener("load", () => {
 })
   );
 });
-iframe.setAttribute("src", "../iframes/ar-iframe.html"); // set iframe attribute
+iframe.setAttribute("src", "./iframes/ar-iframe.html"); // set iframe attribute
 var markerId; // for rendering information pertaining to the marker
 function onMsg(msg) { // fired when window communication happens from the iframe
   if (!trustedOrigins.includes(msg.origin)) return;
