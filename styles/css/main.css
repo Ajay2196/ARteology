@@ -43,3 +43,23 @@
 .arteology--header{
     text-align: center;
 }
+
+.arteology__explore .arteology__content{
+  width: 92%;
+  margin: 0 4%;
+}
+.panel__container{
+  float: left;
+}
+
+.panel.panel-flat {float: left;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;}
+
+  .arteology__home .arteology__content{
+    margin: 0 auto;
+  }
+  .header--align-left{
+    text-align: left;
+  }

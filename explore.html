@@ -1,20 +1,48 @@
 <!DOCTYPE html>
 <html>
   <head>
-<link rel="stylesheet" href="./assets/styles/css/main.css">
+<link rel="stylesheet" href="./styles/css/main.css">
+<script
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+defer
+></script>
   </head>
-  <body class="arteology">
-    <div class="arteology--header">
-      <h2>
-        Explore
-      </h2>
-    </div>
-    
-    <div class="arteology__content" id="aretfacts">
+  <body class="arteology arteology-body arteology__explore">
+    <div class="arteology__content">
+      <div class="arteology--header">
+        <h3 class="header--align-left " id="defaultExplore">
+          <a href="index.html">Home</a> /  Explore
+        </h3>
+        <h3 class="header--align-left hidden" id="exploredItem">
+          <a href="index.html">Home</a> /  <a href="explore.html" onclick="reloadOldView()">Explore</a> / <span id="itemExploredName"></span>
+        </h3>
+  
+      </div>
+      
+      <div class="arteology__items" id="listArtefacts">
+         
+      
+      </div>
+  
+      <div class="arteology__items--description hidden" id="artefact" >
        
-    
+        <div class="content__title" id="title">
+  
+        </div>
+        <div class="content__description" id="description">
+  
+        </div>
+  
+        <iframe src="" id="3DObjectWindow"
+        class="hidden content__3DFrame">
+        </iframe>
+     
+      </div>
     </div>
+ 
+<script src="./scripts/explore.js"></script>
+<style>
 
-    <script src="./assets/scripts/master.js"></script>
+</style>
   </body>
 </html>
