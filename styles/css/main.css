@@ -69,3 +69,11 @@
 .panel h5 {color: #15588d;}
 
 .panel img {border-radius: 10px;}
+
+.arteology__home  .panel img {
+  width: 200px;
+  margin: auto;
+}
+.arteology__home .panel__container{
+  display: flex;
+}
