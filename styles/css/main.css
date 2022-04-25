@@ -78,4 +78,7 @@
   display: flex;
 }
 
-h2,h3 {color: #085e85;}
+h2,h3 {color: #085e85;
+font-weight: 500;
+letter-spacing: 1px;
+}
