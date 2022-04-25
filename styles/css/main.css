@@ -14,7 +14,7 @@
    .arteology__camera{
      height: 75vh;
      width: 75vw;
-     margin: auto;
+     margin: 0 auto;
      min-height: 75%;
      margin-bottom: 1rem;
      --b: 10px; /* control the size */
@@ -26,7 +26,7 @@
 
    }
    .arteology__content{
-     width:75%; margin:auto;
+     width:75%; margin: 0 auto;
    }
    .content__3DFrame{
      width: 100%;
@@ -45,11 +45,13 @@
 }
 
 .arteology__explore .arteology__content{
-  width: 98%;
-  margin: 0 2%;
+  width: 100%;
+  margin: auto;
 }
 .panel__container{
-  float: left;
+  text-align: center;
+  margin-left: auto;
+  
 }
 
 .panel.panel-flat {float: left;
@@ -76,9 +78,19 @@
 }
 .arteology__home .panel__container{
   display: flex;
+  margin: 0 auto;
 }
 
 h2,h3 {color: #085e85;
 font-weight: 500;
 letter-spacing: 1px;
+}
+.arteology__explore .content__3DFrame {width: 96%;}
+.arteology__explore .content__description{
+font-size: 0.75rem;
+}
+
+.arteology__explore .content__title{
+  font-size: 1rem;
+  margin-bottom: 1rem;
 }
