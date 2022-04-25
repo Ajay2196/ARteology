@@ -45,8 +45,8 @@
 }
 
 .arteology__explore .arteology__content{
-  width: 92%;
-  margin: 0 4%;
+  width: 98%;
+  margin: 0 2%;
 }
 .panel__container{
   float: left;
@@ -63,3 +63,17 @@
   .header--align-left{
     text-align: left;
   }
+
+  .panel.panel-flat {border: 1px solid #ddd;padding: 1rem;border-radius: 10px;cursor: pointer;box-shadow: 1px 2px 20px 8px #ddd;}
+
+.panel h5 {color: #15588d;}
+
+.panel img {border-radius: 10px;}
+
+.arteology__home  .panel img {
+  width: 200px;
+  margin: auto;
+}
+.arteology__home .panel__container{
+  display: flex;
+}
